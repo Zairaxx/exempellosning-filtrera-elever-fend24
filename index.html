@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Filtrera elever</h1>
+
+    <fieldset>
+        <input type="radio" name="utbildning" value="Alla" id="all">
+        <label for="all">Alla</label>
+        <input type="radio" name="utbildning" value="Frontend" id="frontend">
+        <label for="frontend">Frontend</label>
+        <input type="radio" name="utbildning" value="Backend" id="backend">
+        <label for="backend">Backend</label>
+        <input type="radio" name="utbildning" value="Fullstack" id="fullstack">
+        <label for="fullstack">Fullstack</label>
+    </fieldset>
+
+    <fieldset>
+        <input type="radio" name="stad" value="Alla" id="allCities">
+        <label for="allCities">Alla</label>
+        <input type="radio" name="stad" value="Stockholm" id="Stockholm">
+        <label for="Stockholm">Stockholm</label>
+        <input type="radio" name="stad" value="Malmö" id="Malmö">
+        <label for="Malmö">Malmö</label>
+        <input type="radio" name="stad" value="Lund" id="Lund">
+        <label for="Lund">Lund</label>
+        <input type="radio" name="stad" value="Helsingborg" id="Helsingborg">
+        <label for="Helsingborg">Helsingborg</label>
+        <input type="radio" name="stad" value="Uppsala" id="Uppsala">
+        <label for="Uppsala">Uppsala</label>
+        <input type="radio" name="stad" value="Göteborg" id="Göteborg">
+        <label for="Göteborg">Göteborg</label>
+    </fieldset>
+
+    <select name="" id="">
+        <option value="Alla">Alla årskurser</option>
+        <option value="1">År 1</option>
+        <option value="2">År 2</option>
+        <option value="3">År 3</option>
+    </select>
+
+    <button id="filterBtn">Filtrera</button>
+    <label for="isTeacher">I'm a teacher, I promise!</label>
+    <input type="checkbox" name="isTeacher" id="isTeacher">
+    <h2>Students:</h2>
+    <ul></ul>
+</body>
+</html>
